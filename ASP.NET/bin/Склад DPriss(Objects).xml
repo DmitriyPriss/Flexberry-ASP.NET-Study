@@ -1,0 +1,501 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Склад DPriss(Objects)</name>
+    </assembly>
+    <members>
+        <member name="T:IIS.Склад_DPriss.СостояниеЗаказа">
+            <summary>
+            Состояние заказа.
+            </summary>
+        </member>
+        <member name="F:IIS.Склад_DPriss.СостояниеЗаказа.Новый">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IIS.Склад_DPriss.СостояниеЗаказа.Оплаченный">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IIS.Склад_DPriss.СостояниеЗаказа.Отмененный">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IIS.Склад_DPriss.Документ">
+            <summary>
+            Документ.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Документ.Номер">
+            <summary>
+            Номер.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Документ.ДатаЗаполнения">
+            <summary>
+            ДатаЗаполнения.
+            </summary>
+        </member>
+        <member name="T:IIS.Склад_DPriss.Документ.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Документ.Views.ДокументE">
+            <summary>
+            "ДокументE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Документ.Views.ДокументL">
+            <summary>
+            "ДокументL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Склад_DPriss.Заказ">
+            <summary>
+            Заказ.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Заказ.Статус">
+            <summary>
+            Статус.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Заказ.ДатаОтгрузки">
+            <summary>
+            ДатаОтгрузки.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Заказ.ДатаОплаты">
+            <summary>
+            ДатаОплаты.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Заказ.Цена">
+            <summary>
+            Цена.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Заказ.Менеджер">
+            <summary>
+            Заказ.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Заказ.СтрокаЗаказа">
+            <summary>
+            Заказ.
+            </summary>
+        </member>
+        <member name="T:IIS.Склад_DPriss.Заказ.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Заказ.Views.ЗаказE">
+            <summary>
+            "ЗаказE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Заказ.Views.ЗаказL">
+            <summary>
+            "ЗаказL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Склад_DPriss.Сотрудник">
+            <summary>
+            Сотрудник.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Сотрудник.ТабельныйНомер">
+            <summary>
+            ТабельныйНомер.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Сотрудник.Фамилия">
+            <summary>
+            Фамилия.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Сотрудник.Имя">
+            <summary>
+            Имя.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Сотрудник.Отчество">
+            <summary>
+            Отчество.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Сотрудник.Телефон">
+            <summary>
+            Телефон.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Сотрудник.Email">
+            <summary>
+            Email.
+            </summary>
+        </member>
+        <member name="T:IIS.Склад_DPriss.Сотрудник.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Сотрудник.Views.СотрудникE">
+            <summary>
+            "СотрудникE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Сотрудник.Views.СотрудникL">
+            <summary>
+            "СотрудникL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Склад_DPriss.Накладная">
+            <summary>
+            Накладная.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Накладная.Статус">
+            <summary>
+            Статус.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Накладная.ДатаВремяОтгрузки">
+            <summary>
+            ДатаВремяОтгрузки.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Накладная.Сумма">
+            <summary>
+            Сумма.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Накладная.Вес">
+            <summary>
+            Вес.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Накладная.Примечания">
+            <summary>
+            Примечания.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Накладная.ФИОПолучателя">
+            <summary>
+            ФИОПолучателя.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Накладная.Заказ">
+            <summary>
+            Накладная.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Накладная.МатериальноОтветственноеЛицо">
+            <summary>
+            Накладная.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Накладная.ЗаписьВНакладной">
+            <summary>
+            Накладная.
+            </summary>
+        </member>
+        <member name="T:IIS.Склад_DPriss.Накладная.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Накладная.Views.НакладнаяE">
+            <summary>
+            "НакладнаяE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Накладная.Views.НакладнаяL">
+            <summary>
+            "НакладнаяL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Склад_DPriss.СостояниеНакладной">
+            <summary>
+            Состояние накладной.
+            </summary>
+        </member>
+        <member name="F:IIS.Склад_DPriss.СостояниеНакладной.Новая">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IIS.Склад_DPriss.СостояниеНакладной.Выписанная">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IIS.Склад_DPriss.СостояниеНакладной.Приостановленная">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IIS.Склад_DPriss.СостояниеНакладной.Готовая">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IIS.Склад_DPriss.СостояниеНакладной.Отгруженная">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IIS.Склад_DPriss.Товар">
+            <summary>
+            Товар.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Товар.КодТовара">
+            <summary>
+            КодТовара.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Товар.Название">
+            <summary>
+            Название.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Товар.ЕдиницаИзмерения">
+            <summary>
+            ЕдиницаИзмерения.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Товар.Описание">
+            <summary>
+            Описание.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Товар.Цена">
+            <summary>
+            Цена.
+            </summary>
+        </member>
+        <member name="T:IIS.Склад_DPriss.Товар.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Товар.Views.ТоварE">
+            <summary>
+            "ТоварE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Товар.Views.ТоварL">
+            <summary>
+            "ТоварL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Склад_DPriss.СтрокаЗаказа">
+            <summary>
+            Строка заказа.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.СтрокаЗаказа.Количество">
+            <summary>
+            Количество.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.СтрокаЗаказа.ЦенаСНалогами">
+            <summary>
+            ЦенаСНалогами.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.СтрокаЗаказа.Сумма">
+            <summary>
+            Сумма.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.СтрокаЗаказа.Товар">
+            <summary>
+            Строка заказа.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.СтрокаЗаказа.Заказ">
+            <summary>
+            мастеровая ссылка на шапку IIS.Склад_DPriss.Заказ.
+            </summary>
+        </member>
+        <member name="T:IIS.Склад_DPriss.СтрокаЗаказа.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.СтрокаЗаказа.Views.СтрокаЗаказаE">
+            <summary>
+            "СтрокаЗаказаE" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Склад_DPriss.DetailArrayOfСтрокаЗаказа">
+            <summary>
+            Detail array of СтрокаЗаказа.
+            </summary>
+        </member>
+        <member name="M:IIS.Склад_DPriss.DetailArrayOfСтрокаЗаказа.#ctor(IIS.Склад_DPriss.Заказ)">
+            <summary>
+            Construct detail array.
+            </summary>
+            <summary>
+            Returns object with type СтрокаЗаказа by index.
+            </summary>
+            <summary>
+            Adds object with type СтрокаЗаказа.
+            </summary>
+        </member>
+        <member name="T:IIS.Склад_DPriss.ТоварНаСкладе">
+            <summary>
+            Товар на складе.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.ТоварНаСкладе.Количество">
+            <summary>
+            Количество.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.ТоварНаСкладе.Товар">
+            <summary>
+            Товар на складе.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.ТоварНаСкладе.Склад">
+            <summary>
+            мастеровая ссылка на шапку IIS.Склад_DPriss.Склад.
+            </summary>
+        </member>
+        <member name="T:IIS.Склад_DPriss.ТоварНаСкладе.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.ТоварНаСкладе.Views.ТоварНаСкладеE">
+            <summary>
+            "ТоварНаСкладеE" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Склад_DPriss.DetailArrayOfТоварНаСкладе">
+            <summary>
+            Detail array of ТоварНаСкладе.
+            </summary>
+        </member>
+        <member name="M:IIS.Склад_DPriss.DetailArrayOfТоварНаСкладе.#ctor(IIS.Склад_DPriss.Склад)">
+            <summary>
+            Construct detail array.
+            </summary>
+            <summary>
+            Returns object with type ТоварНаСкладе by index.
+            </summary>
+            <summary>
+            Adds object with type ТоварНаСкладе.
+            </summary>
+        </member>
+        <member name="T:IIS.Склад_DPriss.Склад">
+            <summary>
+            Склад.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Склад.Номер">
+            <summary>
+            Номер.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Склад.Адрес">
+            <summary>
+            Адрес.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Склад.Кладовщик">
+            <summary>
+            Склад.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Склад.ТоварНаСкладе">
+            <summary>
+            Склад.
+            </summary>
+        </member>
+        <member name="T:IIS.Склад_DPriss.Склад.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Склад.Views.СкладE">
+            <summary>
+            "СкладE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.Склад.Views.СкладL">
+            <summary>
+            "СкладL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Склад_DPriss.ЗаписьВНакладной">
+            <summary>
+            Запись в накладной.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.ЗаписьВНакладной.Количество">
+            <summary>
+            Количество.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.ЗаписьВНакладной.Вес">
+            <summary>
+            Вес.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.ЗаписьВНакладной.Цена">
+            <summary>
+            Цена.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.ЗаписьВНакладной.Сумма">
+            <summary>
+            Сумма.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.ЗаписьВНакладной.Товар">
+            <summary>
+            Запись в накладной.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.ЗаписьВНакладной.Накладная">
+            <summary>
+            мастеровая ссылка на шапку IIS.Склад_DPriss.Накладная.
+            </summary>
+        </member>
+        <member name="T:IIS.Склад_DPriss.ЗаписьВНакладной.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Склад_DPriss.ЗаписьВНакладной.Views.ЗаписьВНакладнойE">
+            <summary>
+            "ЗаписьВНакладнойE" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Склад_DPriss.DetailArrayOfЗаписьВНакладной">
+            <summary>
+            Detail array of ЗаписьВНакладной.
+            </summary>
+        </member>
+        <member name="M:IIS.Склад_DPriss.DetailArrayOfЗаписьВНакладной.#ctor(IIS.Склад_DPriss.Накладная)">
+            <summary>
+            Construct detail array.
+            </summary>
+            <summary>
+            Returns object with type ЗаписьВНакладной by index.
+            </summary>
+            <summary>
+            Adds object with type ЗаписьВНакладной.
+            </summary>
+        </member>
+    </members>
+</doc>

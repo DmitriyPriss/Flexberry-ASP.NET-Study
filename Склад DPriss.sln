@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Склад DPriss(ASP.NET Application)", "ASP.NET\Склад DPriss(ASP.NET Application).csproj", "{A59DD5DC-27FF-45AE-B7D3-ED28264881C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Склад DPriss(Objects)", "Objects\Склад DPriss(Objects).csproj", "{0F41BF02-178A-498D-BEA2-AAB8E9FDA7D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A59DD5DC-27FF-45AE-B7D3-ED28264881C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A59DD5DC-27FF-45AE-B7D3-ED28264881C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A59DD5DC-27FF-45AE-B7D3-ED28264881C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A59DD5DC-27FF-45AE-B7D3-ED28264881C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F41BF02-178A-498D-BEA2-AAB8E9FDA7D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F41BF02-178A-498D-BEA2-AAB8E9FDA7D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F41BF02-178A-498D-BEA2-AAB8E9FDA7D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F41BF02-178A-498D-BEA2-AAB8E9FDA7D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
