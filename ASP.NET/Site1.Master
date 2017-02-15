@@ -25,13 +25,13 @@
         <div class="page-wrap">
             <div class="page-header">
                 <div class="page-header-image"><a href="/Default.aspx"></a></div>
-                <div class="page-header-caption"><a href="/Default.aspx">Название проекта</a></div>
+                <div class="page-header-caption"><a href="/Default.aspx">Пермский государственный институт культуры</a></div>
                 <div class="page-header-userbar">
                     <asp:Label ID="fio" runat="server" Text="YourUserID" />
                     <asp:LinkButton CssClass="exit-btn" ID="ExitButton" runat="server" OnClick="ExitButtonClickHandler">Выход</asp:LinkButton>
                 </div>
             </div>
-            <div class="page-navigation">
+            <div class="page-navigation" >
                 <a href="#" runat="server" id="pageTreeViewShowHideBtn" onclick="ShowHideNavigate(); return false;"><span id="treeviewHideSpan" runat="server">
                     <asp:Localize ID="TreeviewHideText" runat="server" Text="<%$ Resources: Resource, Menu_Hide %>"></asp:Localize></span><span id="treeviewShowSpan" runat="server"><asp:Localize ID="TreeviewShowText" runat="server" Text="<%$ Resources: Resource, Menu_Show %>"></asp:Localize></span></a>
                 <asp:SiteMapPath ID="SiteMapPath" runat="server" CssClass="page-breadcrumbs" SkinID="SiteMapPath" />
@@ -48,7 +48,7 @@
             <div class="page-empty"></div>
         </div>
         <div class="page-footer">
-            <asp:DropDownList ID="themesList" OnSelectedIndexChanged="OnThemeChangedHandler" AutoPostBack="True" runat="server">
+            <asp:DropDownList ID="themesList" OnSelectedIndexChanged="OnThemeChangedHandler" Visible="false" AutoPostBack="True" runat="server">
                 <asp:ListItem />
                 <asp:ListItem Value="Default" />
                 <asp:ListItem Value="Spring" />

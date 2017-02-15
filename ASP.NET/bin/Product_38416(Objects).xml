@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Product_38416(Objects)</name>
+    </assembly>
+    <members>
+        <member name="T:IIS.Product_38416.Дисциплина">
+            <summary>
+            Дисциплина.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Дисциплина.Название">
+            <summary>
+            Название.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Дисциплина.КоличествоСиместровИзучения">
+            <summary>
+            КоличествоСиместровИзучения.
+            </summary>
+        </member>
+        <member name="T:IIS.Product_38416.Дисциплина.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Дисциплина.Views.ДисциплинаE">
+            <summary>
+            "ДисциплинаE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Дисциплина.Views.ДисциплинаL">
+            <summary>
+            "ДисциплинаL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Product_38416.Факультет">
+            <summary>
+            Факультет.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Факультет.Название">
+            <summary>
+            Название.
+            </summary>
+        </member>
+        <member name="T:IIS.Product_38416.Факультет.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Факультет.Views.ФакультетE">
+            <summary>
+            "ФакультетE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Факультет.Views.ФакультетL">
+            <summary>
+            "ФакультетL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Product_38416.Группа">
+            <summary>
+            Группа.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Группа.Название">
+            <summary>
+            Название.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Группа.Факультет">
+            <summary>
+            Группа.
+            </summary>
+        </member>
+        <member name="T:IIS.Product_38416.Группа.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Группа.Views.ГруппаE">
+            <summary>
+            "ГруппаE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Группа.Views.ГруппаL">
+            <summary>
+            "ГруппаL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Product_38416.Студент">
+            <summary>
+            Студент.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Студент.ФИО">
+            <summary>
+            ФИО.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Студент.ДатаРождения">
+            <summary>
+            ДатаРождения.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Студент.Группа">
+            <summary>
+            Студент.
+            </summary>
+        </member>
+        <member name="T:IIS.Product_38416.Студент.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Студент.Views.СтудентE">
+            <summary>
+            "СтудентE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Студент.Views.СтудентL">
+            <summary>
+            "СтудентL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Product_38416.Кафедра">
+            <summary>
+            Кафедра.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Кафедра.Название">
+            <summary>
+            Название.
+            </summary>
+        </member>
+        <member name="T:IIS.Product_38416.Кафедра.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Кафедра.Views.КафедраE">
+            <summary>
+            "КафедраE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Кафедра.Views.КафедраL">
+            <summary>
+            "КафедраL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Product_38416.Ведомость">
+            <summary>
+            Ведомость.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Ведомость.Оценка">
+            <summary>
+            Оценка.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Ведомость.Студент">
+            <summary>
+            Ведомость.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Ведомость.Преподаватель">
+            <summary>
+            Ведомость.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Ведомость.Дисциплина">
+            <summary>
+            Ведомость.
+            </summary>
+        </member>
+        <member name="T:IIS.Product_38416.Ведомость.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Ведомость.Views.ВедомостьE">
+            <summary>
+            "ВедомостьE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Ведомость.Views.ВедомостьL">
+            <summary>
+            "ВедомостьL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.Product_38416.Преподаватель">
+            <summary>
+            Преподаватель.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Преподаватель.ФИО">
+            <summary>
+            ФИО.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Преподаватель.ДатаРождения">
+            <summary>
+            ДатаРождения.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Преподаватель.Стаж">
+            <summary>
+            Стаж.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Преподаватель.Кафедра">
+            <summary>
+            Преподаватель.
+            </summary>
+        </member>
+        <member name="T:IIS.Product_38416.Преподаватель.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Преподаватель.Views.ПреподавательE">
+            <summary>
+            "ПреподавательE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.Product_38416.Преподаватель.Views.ПреподавательL">
+            <summary>
+            "ПреподавательL" view.
+            </summary>
+        </member>
+    </members>
+</doc>

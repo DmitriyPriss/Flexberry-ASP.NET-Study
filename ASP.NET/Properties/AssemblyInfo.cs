@@ -8,11 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Reflection.AssemblyTitle("Склад DPriss")]
-[assembly: System.Reflection.AssemblyDescription("Склад DPriss")]
+[assembly: System.Reflection.AssemblyTitle("Product_38416")]
+[assembly: System.Reflection.AssemblyDescription("Product_38416")]
 [assembly: System.Reflection.AssemblyConfiguration("")]
 [assembly: System.Reflection.AssemblyCompany("IIS")]
-[assembly: System.Reflection.AssemblyProduct("Склад DPriss")]
+[assembly: System.Reflection.AssemblyProduct("Product_38416")]
 [assembly: System.Reflection.AssemblyCopyright("(c) 2004-2017. IIS ZAO. All rights reserved.")]
 [assembly: System.Reflection.AssemblyTrademark("")]
 [assembly: System.Reflection.AssemblyCulture("")]
